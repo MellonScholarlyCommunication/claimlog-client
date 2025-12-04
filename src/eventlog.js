@@ -149,6 +149,10 @@ function sortedAuthors(authors) {
     }
 }
 
+function isObject (value) {
+  return Object.prototype.toString.call(value) === '[object Object]'
+}
+
 function ensureString(value) {
     if (!value) {
         return "";
