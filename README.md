@@ -16,23 +16,23 @@ Include the claims in your website use this HTML fragment:
 ```(html)
 <html>
 <head>
-        <title>My Claims</title>
+    <title>My Claims</title>
 
-        <link rel='eventlog' href='https://mycontributions.info/service/c/trace?artifact=https://research.test.edu.nl/@alsvanounds'/>
-        <script defer src='https://mycontributions.info/apps/claimlog.js'></script>
+    <link rel='eventlog' href='https://mycontributions.info/service/c/trace?artifact=https://research.test.edu.nl/@alsvanounds'/>
+    <script defer src='https://mycontributions.info/apps/claimlog.js'></script>
 
-        <style>
+    <style>
         html, body {
             margin: 0;
             padding: 0;
             font-family: "Inter", sans-serif;
             font-size: 16px;
-        }
-        </style>
+    }
+    </style>
 </head>
 <body>
-        <h1>Fetze Alsvanouds Claims</h1>
-        <div id="claims"></div>
+    <h1>Fetze Alsvanouds Claims</h1>
+    <div id="claims"></div>
 </body>
 </html>
 ```
